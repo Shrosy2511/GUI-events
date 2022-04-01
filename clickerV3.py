@@ -23,7 +23,7 @@ def color(event=None):
     else:
         window.config(bg="red")
 
-def ColorChange(event):
+def ColorChange(event=None):
     window.config(bg="yellow")
 
 def divideBy3(event=None):
