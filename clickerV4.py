@@ -56,6 +56,7 @@ button1.pack(side=tk.BOTTOM)
 label.bind("<Enter>", ColorChange)
 label.bind("<Leave>", color)
 label.bind("<Double-Button-1>", divideBy3)
+
 window.bind("=", plus)
 window.bind("-", minus)
 window.bind("<space>", divideBy3)
